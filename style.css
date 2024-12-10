@@ -1,0 +1,104 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+
+body {
+  margin: 0;
+  width: 100%;
+  background-color: #fc819e;
+  text-align: center;
+  scroll-behavior: smooth;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+section {
+  padding: 35px;
+  color: #ffffff8f;
+}
+
+#hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)),
+    url("https://i.imgur.com/DJYBGAc.jpeg");
+  padding: 200px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  background-position: center;
+  text-align: center;
+}
+
+#my-image {
+  width: clamp(100px, 15vw, 1000px);
+  border-radius: 50%;
+  padding: 0;
+  border: solid 5px #fff3c7;
+  margin-bottom: 15px;
+}
+
+#my-image:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+.navbar-collapse a {
+  color: #fff3c7;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.moon-icon {
+  color: #fff3c7;
+}
+h1 {
+  font-size: clamp(2.5rem, 3vw, 5rem);
+  color: #fff3c7;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h6 {
+  color: #fff3c7;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  color: #fff3c7;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+p {
+  color: #fff3c7;
+}
+#video-game-character-collage {
+  width: clamp(100px, 70%, 1000px);
+}
+#skills-section {
+  background-color: #ffb1b1;
+}
+.skills-icon {
+  font-size: 4rem;
+  color: #fff3c7;
+}
+#skills-section .card:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+
+.contact-icon {
+  font-size: 3rem;
+  color: #fff3c7;
+}
+
+.contact-icon:hover {
+  color: #ffa38f;
+}
+#footer-section {
+  color: #fff3c7;
+  background-color: #fc819e;
+}
+.card-body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
